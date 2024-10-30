@@ -4,10 +4,11 @@
 // Esporta la funzione dal file.
 
 function full_name(firstName, lastName) {
-  return {
+  const user = {
     firstName: firstName,
     lastName: lastName,
-  };
+  }
+  return user
 }
 
 module.exports = full_name;
